@@ -1,0 +1,10 @@
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.parliament {
+    width: 500px;
+    outline: solid 2px black;
+    outline-offset: 3px;
+}
+
