@@ -1,10 +1,27 @@
-h1, h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-}
-.parliament {
-    width: 500px;
-    outline: solid 2px black;
-    outline-offset: 3px;
+.superbody1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    flex-grow: 0;
 }
 
+.backgrounds1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightskyblue;
+    box-sizing: border-box;
+    border: solid 2px black;
+    padding: 20px;
+    margin: 20px;
+    width: 800px;
+}
+.parliament {
+    width: 600px;
+    outline: solid 2px black;
+    outline-offset: 2px;
+}
